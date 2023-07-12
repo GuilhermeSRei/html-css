@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(pacote/fontes/idroid.otf);
+}
+
+
+
+body{
+    text-align: center;
+    color: white;
+    margin: 0px 100px 0px 100px;
+    font-family: 'idroid';
+    background-color: #84e1ad;
+}
+
+header {
+    height: 200px;
+    margin: -20px -100px 0px -100px;
+    padding: 5px;
+    background-image: linear-gradient(to bottom, #3cd983, #1a5c38);
+    box-shadow: 2px 3px 5px rgb(187, 187, 187)
+}
+
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+header p{
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+#menu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#menu li{
+    display: inline;
+    padding: 10px;
+}
+
+#menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+#menu li  a:hover{
+    text-decoration: underline;
+}
+
+main{
+    padding: 10px;
+    margin: 0px 0px 0px 0px;
+    text-align: justify;
+    color: black;
+    background-color: white;
+    box-shadow: 2px 3px 5px rgb(187, 187, 187);
+    border-radius: 0px 0px 5px 5px;
+}
+
+main h1{
+    color: #1a5c38;
+}
+
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: normal;
+}
+
+#android{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: large;
+    color: #1a5c38;
+    display: inline;
+}
+
+main h2{
+    color: #1a5c38;
+    background-image: linear-gradient(to right, #84e1ad, transparent);
+    margin: 0px;
+    padding: 0;
+}
+
+main picture{
+    
+}
+
+#extra{
+    height: auto;
+    width: auto;
+    padding: 5px;
+    background-color: #28af65;
+    background-image: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: normal;
+    font-weight: 500;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 1px 2px 5px lightgray;
+}
+
+div{
+    margin: -16px 0px 0px 0px;
+    background-color: #99dbb6;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 2px 5px lightgray;
+}
+
+div p{
+    padding: 10px;
+    text-align: justify;
+}
+
+main ul{
+    background-color: #99dbb6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 500;
+}
+
+main ul li{
+    width: 50%;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: normal;
+    font-weight: 500;
+    background-color: #1a5c38;
+    padding: 1px;
+    margin: 10px -100px 0px -100px ;
+}

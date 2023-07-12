@@ -1,0 +1,16 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #d68484ad;
+    color: #000000
+}
+
+body.modo-escuro{
+    background-color: black;
+    color: aliceblue;
+}
+
+header{
+    background-color: aqua;
+}
