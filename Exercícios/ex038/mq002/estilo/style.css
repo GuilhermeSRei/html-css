@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* Modo para o resto, como impressora */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.97);
+}
+
+h1 {
+    color: white;
+    text-shadow: 0px 0px 3.5px white;
+}
