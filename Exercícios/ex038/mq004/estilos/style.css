@@ -40,6 +40,6 @@ img {
     margin: auto;
 }
 
-img#iinpre, #itablet, #itv {
+img#print, #tablet, #pc, #tv {
     display: none;
 } 
